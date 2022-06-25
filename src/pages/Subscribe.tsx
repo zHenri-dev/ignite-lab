@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
-import codeMokeUpURL from './src/assets/code-mockup.png';
+import codeMokeUpURL from '../assets/code-mockup.png';
 
 export function Subscribe() {
   const navigate = useNavigate();
